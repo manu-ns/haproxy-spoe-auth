@@ -20,7 +20,7 @@ import (
 
 // ValidStateDuration is the amount of time before the state is considered expired. This will be replaced
 // by an expiration in a JWT token in a future review.
-const ValidStateDuration = 30 * time.Second
+const ValidStateDuration = 300 * time.Second
 
 // OIDCAuthenticatorOptions options to customize to the OIDC authenticator
 type OIDCAuthenticatorOptions struct {
